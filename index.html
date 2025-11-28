@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankit Kumar - AI/ML Developer from Patna, Bihar. Specializing in Machine Learning, Deep Learning, and Python Development. Built 10+ real-world projects.">
+  <meta name="keywords" content="AI Developer, Machine Learning, Python, Deep Learning, Web Development, Ankit Kumar, Patna, Baby AI">
+  <meta name="author" content="Ankit Kumar">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ankit Kumar | AI/ML Developer">
+  <meta property="og:description" content="Class 12 student building the future with AI, ML & 10+ projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ankitai.onrender.com">
+  <meta property="og:image" content="https://ankitai.onrender.com/laukesh.jpeg">
+  
+  <title> | AI/ML Developer & Coder</title>
+  
+  
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="ankitai logo.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Laukesh<span>Kumar</span></div>
+    
+    <!-- Hamburger Menu -->
+    <div class="hamburger" onclick="toggleMobileMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <ul class="nav-menu">
+      <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+      <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
+      <li><a href="#blog" onclick="closeMobileMenu()">Blog</a></li>
+      <li><a href="#vision" onclick="closeMobileMenu()">Vision</a></li>
+      <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+      <li><button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle Theme">
+        <i class="fas fa-sun"></i>
+      </button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container hero-flex fade-in">
+      <!-- Left side: Photo -->
+      <div class="hero-image">
+        <img src="laukesh.jpeg" alt="Laukesh Kumar" loading="eager">
+      </div>
+
+      <!-- Right side: Text -->
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="typing"></span></h1>
+        <p class="subtitle">Photographer | Photo Editing | BGMI Player</p>
+        <p class="location">📍 From Patna, Bihar | Class 12 Student</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View My Projects</a>
+          <a href="#contact" class="btn secondary">Let's Connect</a>
+          <a href="https://www.instagram.com/__next___ff/" target="_blank" class="btn tertiary">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-down">
+      <a href="#about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container slide-up">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>I am a passionate AI/ML developer from Patna, Bihar, currently pursuing my Class 12 studies. I specialize in building real-world machine learning applications, data science projects, and intelligent systems using Python.</p>
+        <p>My mission is to create <strong>Baby AI</strong> - an advanced artificial general intelligence (AGI) with emotion sensing, natural language understanding, and computer vision capabilities. I'm also dreaming of developing sustainable ecosystems on Mars by combining AI, Space Technology, and Biology.</p>
+        
+        <!-- Stats -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <i class="fas fa-project-diagram"></i>
+            <h3>10+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-code"></i>
+            <h3>Python</h3>
+            <p>Primary Language</p>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-brain"></i>
+            <h3>AI/ML</h3>
+            <p>Specialization</p>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Patna</h3>
+            <p>Bihar, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-dark">
+    <div class="container slide-up">
+      <h2 class="section-title">Skills & Technologies</h2>
+      
+      <div class="skills-container">
+        <!-- Programming Languages -->
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-database"></i>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- AI & ML -->
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fas fa-robot"></i>
+              <span>Scikit-learn</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-layer-group"></i>
+              <span>Deep Learning</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-chart-line"></i>
+              <span>Pandas & NumPy</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-comment-dots"></i>
+              <span>NLP</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-project-diagram"></i>
+              <span>Data Visualization</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Web Development -->
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web Development</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-server"></i>
+              <span>Flask</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-stream"></i>
+              <span>Streamlit</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tools & Others -->
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fab fa-git-alt"></i>
+              <span>Git & GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-kaggle"></i>
+              <span>Kaggle</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-gamepad"></i>
+              <span>Game Development</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-lightbulb"></i>
+              <span>Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container slide-up">
+      <h2 class="section-title">Featured Projects</h2>
+      <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">
+        Real-world ML applications solving actual problems
+      </p>
+      <div class="project-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-icon">🏅</div>
+          <h3>Olympic Data Dashboard</h3>
+          <p>Interactive analytics dashboard analyzing 120+ years of Olympic data with ML-powered insights and beautiful visualizations.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="https://olympikit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-icon">📧</div>
+          <h3>Spam Classifier AI</h3>
+          <p>Advanced NLP model classifying spam vs. ham messages with 95%+ accuracy using machine learning algorithms.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Scikit-learn</span>
+          </div>
+          <div class="project-links">
+            <a href="https://antispamkit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-icon">💻</div>
+          <h3>Laptop Price Predictor</h3>
+          <p>ML regression model predicting laptop prices based on specifications using Kaggle dataset and advanced feature engineering.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Regression</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Streamlit</span>
+          </div>
+          <div class="project-links">
+            <a href="https://laptoprikit-vvle.onrender.com/" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-icon">🏏</div>
+          <h3>IPL Win Predictor</h3>
+          <p>Predict IPL cricket match outcomes in real-time using Logistic Regression and historical match data analysis.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Classification</span>
+            <span class="tech-tag">Cricket Analytics</span>
+            <span class="tech-tag">Streamlit</span>
+          </div>
+          <div class="project-links">
+            <a href="https://iplwinprokit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <div class="project-icon">📚</div>
+          <h3>Book Recommendation System</h3>
+          <p>Intelligent book recommendations using collaborative filtering and user-based similarity algorithms.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Recommendation</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Collaborative Filtering</span>
+          </div>
+          <div class="project-links">
+            <a href="https://bookreckit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card">
+          <div class="project-icon">🎬</div>
+          <h3>Movie Recommendation System</h3>
+          <p>Content-based movie recommendations using TMDb API and natural language processing techniques.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">Content-Based</span>
+            <span class="tech-tag">TMDb API</span>
+            <span class="tech-tag">NLP</span>
+          </div>
+          <div class="project-links">
+            <a href="https://movieskit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card">
+          <div class="project-icon">🎮</div>
+          <h3>Tic Tac Toe Game</h3>
+          <p>Classic game with AI opponent using minimax algorithm for optimal gameplay strategies.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">AI Logic</span>
+          </div>
+          <div class="project-links">
+            <a href="https://tickit-rht5.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-gamepad"></i> Play Now
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card">
+          <div class="project-icon">🚀</div>
+          <h3>Space Shooter Game</h3>
+          <p>Addictive space shooter built with JavaScript and HTML5 Canvas with smooth animations.</p>
+          <div class="tech-stack">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Canvas API</span>
+            <span class="tech-tag">Game Dev</span>
+          </div>
+          <div class="project-links">
+            <a href="https://spacekit.onrender.com" target="_blank" class="btn btn-small">
+              <i class="fas fa-gamepad"></i> Play Now
+            </a>
+            <a href="https://github.com/eddiebrock911" target="_blank" class="btn btn-small github">
+              <i class="fab fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section id="vision" class="section bg-dark">
+    <div class="container slide-up">
+      <h2 class="section-title">Future Vision 🚀</h2>
+      <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">
+        Ambitious goals driving my journey in AI and technology
+      </p>
+      <div class="vision-content">
+        <div class="vision-card">
+          <i class="fas fa-robot vision-icon"></i>
+          <h3>Baby AI (AGI)</h3>
+          <p>Building advanced artificial general intelligence with emotion sensing, wake-word detection, natural language understanding, and camera vision capabilities - the future of human-AI interaction.</p>
+        </div>
+        <div class="vision-card">
+          <i class="fas fa-rocket vision-icon"></i>
+          <h3>Mars Ecosystem</h3>
+          <p>Developing sustainable living ecosystems on Mars by integrating AI-powered resource management, space technology innovations, and biological engineering.</p>
+        </div>
+        <div class="vision-card">
+          <i class="fas fa-dna vision-icon"></i>
+          <h3>AI + Biology</h3>
+          <p>Pioneering research at the intersection of artificial intelligence and biological sciences to solve humanity's greatest challenges in healthcare and space exploration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container slide-up">
+      <h2 class="section-title">Let's Connect!</h2>
+      <p class="contact-subtitle">📧 Open for collaborations, freelance projects, and exciting opportunities!</p>
+      
+      <div class="contact-grid">
+        <a href="https://www.linkedin.com/in/eddiebrock-364ba537b/" target="_blank" class="contact-card linkedin">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>Professional networking</p>
+        </a>
+        
+        <a href="https://github.com/eddiebrock911" target="_blank" class="contact-card github">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <p>Check out my code</p>
+        </a>
+        
+        <a href="https://www.kaggle.com/ankitkumar8252" target="_blank" class="contact-card kaggle">
+          <i class="fab fa-kaggle"></i>
+          <h3>Kaggle</h3>
+          <p>Data science journey</p>
+        </a>
+        
+        <a href="https://www.instagram.com/__ankit._.op_/" target="_blank" class="contact-card instagram">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>Follow my journey</p>
+        </a>
+        
+        <a href="mailto:your.real.email@gmail.com" class="contact-card email">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>Drop me a message</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Ankit Kumar | Built with ❤️ and Python</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#vision">Vision</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Scripts - FIXED PATHS -->
+  <script src="script.js"></script>
+  <script src="performance.js"></script>
+  <script src="ai-chatbot.js"></script>
+  <script src="features.js"></script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9451497256140203" crossorigin="anonymous"></script>
+</body>
+</html>
