@@ -1,7 +1,7 @@
 {
-  "name": "Ankit Kumar - AI Developer Portfolio",
-  "short_name": "AnkitAI",
-  "description": "Portfolio of Ankit Kumar - AI Developer, Machine Learning Engineer & Coder from Patna, Bihar",
+  "name": "Laukesh Kumar - Photo Editor & Gamer Portfolio",
+  "short_name": "Laukesh Kumar",
+  "description": "Portfolio of Laukesh Kumar -Photo Editor • Content Creator • Competitive BGMI Player  from Sheikhpura, Bihar",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f0f",
@@ -27,9 +27,9 @@
   ],
   "screenshots": [
     {
-      "src": "Ankit1.jpg",
+      "src": "portfest.png",
       "sizes": "1280x720",
-      "type": "image/jpeg",
+      "type": "image/png",
       "label": "Portfolio Homepage"
     }
   ],
@@ -37,7 +37,7 @@
     {
       "name": "View Projects",
       "short_name": "Projects",
-      "description": "View all AI/ML projects",
+      "description": "View all projects ",
       "url": "/#projects",
       "icons": [
         {
