@@ -20,8 +20,7 @@ Built with **HTML, CSS, and JavaScript**, this site is designed to be responsive
 - **Extras**: Floating contact button, back-to-top button, accessibility focus styles.
 
 ---
-## Live Demo 
-Go - https://laukesh.onrender.com/
+## Live Demo : https://laukesh.onrender.com/
 
 
 ## 🛠️ Tech Stack
