@@ -4,6 +4,12 @@ A personal portfolio website showcasing **photo editing skills**, **gaming highl
 Built with **HTML, CSS, and JavaScript**, this site is designed to be responsive, modern, and engaging.
 
 ---
+## 👨‍💻 Developer
+
+- **Portfolio Owner**: Laukesh Kumar  
+- **Developer**: [Ankit Kumar](https://www.instagram.com/__ankit._.op_/)
+  
+---
 
 ## 🚀 Features
 
