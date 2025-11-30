@@ -65,11 +65,6 @@ _Add screenshots of your portfolio sections here for better presentation._
 
 ---
 
-## 👨‍💻 Developer
-
-- **Portfolio Owner**: Laukesh Kumar  
-- **Developer**: [Ankit Kumar](https://www.instagram.com/__ankit._.op_/)
-
 ---
 
 ## 📜 License
