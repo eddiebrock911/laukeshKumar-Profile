@@ -31,7 +31,7 @@
 ## 🖼️ Preview
 
 <div align="center">
-<img src="portfolio.png" alt="Portfolio Preview" width="80%" style="border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+<img src="portfolio.png" alt="Portfolio Preview" width="80%" style="border-radius:22px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
 </div>
 
 ---
