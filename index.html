@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Laukesh Kumar — Photo Editor & Gamer | Portfolio</title>
-  <meta name="description" content="Laukesh Kumar — Photo editor, content creator and competitive BGMI player from Patna. Portfolio, gameplay highlights, editing before/after and contact." />
+  <meta name="description"
+    content="Laukesh Kumar — Photo editor, content creator and competitive BGMI player from Patna. Portfolio, gameplay highlights, editing before/after and contact." />
   <meta name="keywords" content="Photo Editor, BGMI, Gamer, Portfolio, Video Editor, Laukesh Kumar, Patna" />
   <meta name="author" content="Laukesh Kumar" />
   <meta property="og:title" content="Laukesh Kumar — Photo Editor & Gamer" />
@@ -14,20 +16,23 @@
   <meta property="og:url" content="https://laukesh.onrender.com" />
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVY9CKBJN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVY9CKBJN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DTVY9CKBJN');
-</script>
-  
+    gtag('config', 'G-DTVY9CKBJN');
+  </script>
+
   <link rel="icon" type="image/png" href="ankitai logo.png">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <!-- Animated Background -->
   <div class="animated-bg">
@@ -49,12 +54,16 @@
         </div>
       </div>
 
-      <ul class="nav-links" role="menubar" aria-label="Main">
+      <ul class="nav-links" id="navLinks" role="menubar" aria-label="Main">
         <li role="none"><a role="menuitem" href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
-        <li role="none"><a role="menuitem" href="#portfolio" class="nav-link"><i class="fas fa-images"></i> Portfolio</a></li>
-        <li role="none"><a role="menuitem" href="#gaming" class="nav-link"><i class="fas fa-gamepad"></i> Gaming</a></li>
-        <li role="none"><a role="menuitem" href="#services" class="nav-link"><i class="fas fa-briefcase"></i> Services</a></li>
-        <li role="none"><a role="menuitem" href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li role="none"><a role="menuitem" href="#portfolio" class="nav-link"><i class="fas fa-images"></i>
+            Portfolio</a></li>
+        <li role="none"><a role="menuitem" href="#gaming" class="nav-link"><i class="fas fa-gamepad"></i> Gaming</a>
+        </li>
+        <li role="none"><a role="menuitem" href="#services" class="nav-link"><i class="fas fa-briefcase"></i>
+            Services</a></li>
+        <li role="none"><a role="menuitem" href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+        </li>
       </ul>
 
       <div class="actions">
@@ -73,7 +82,7 @@
   <header class="hero">
     <div class="container">
       <div class="hero-grid">
-        <div class="profile-container">
+        <div class="profile-container animate-on-scroll">
           <div class="profile-img">
             <img src="laukesh.jpeg" alt="Laukesh Kumar portrait" loading="lazy">
             <div class="profile-border"></div>
@@ -117,13 +126,15 @@
 
           <div class="hero-tip">
             <i class="fas fa-lightbulb"></i>
-            <span>Pro-tip: Portfolio में "Before/After" और gameplay में "Clips (30s)" रखें — visitors जल्दी निर्णय लेते हैं.</span>
+            <span>Pro-tip: Portfolio में "Before/After" और gameplay में "Clips (30s)" रखें — visitors जल्दी निर्णय लेते
+              हैं.</span>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="scroll-indicator">
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-indicator" href="#about">
       <span>Scroll Down</span>
       <div class="scroll-arrow">
         <i class="fas fa-chevron-down"></i>
@@ -141,9 +152,10 @@
       </div>
 
       <div class="about-grid">
-        <div class="about-content">
-          <p class="about-text">मैं एक passionate photo editor और content creator हूं. Cinematic BGMI edits और professional photo manipulations बनाता/बनाती हूं. मेरा focus storytelling और engagement बढ़ाना है.</p>
-          
+        <div class="about-content animate-on-scroll">
+          <p class="about-text">मैं एक passionate photo editor और content creator हूँ। Cinematic BGMI edits और
+            professional photo manipulations बनाता हूँ। मेरा focus visual storytelling और engagement बढ़ाना है।</p>
+
           <div class="skills-container">
             <h3 class="skills-title">My Skills</h3>
             <div class="skill-bars">
@@ -258,13 +270,15 @@
   <!-- PORTFOLIO -->
   <section id="portfolio" class="section section-alt">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header animate-on-scroll">
         <span class="section-badge">My Work</span>
         <h2 class="section-title">Portfolio — Photo Edits</h2>
-        <p class="section-subtitle">Click to enlarge and see before/after comparisons</p>
+        <p class="section-subtitle">Interact with the Before/After slider or browse below</p>
       </div>
 
-      <div class="portfolio-filters">
+      <!-- Before/After Showcase Slider -->
+     
+      <div class="portfolio-filters animate-on-scroll">
         <button class="filter-btn active" data-filter="all">All</button>
         <button class="filter-btn" data-filter="portrait">Portrait</button>
         <button class="filter-btn" data-filter="gaming">Gaming</button>
@@ -275,7 +289,7 @@
       <div class="portfolio-grid">
         <div class="portfolio-card" data-category="cinematic" tabindex="0">
           <div class="portfolio-image">
-            <img src="portfolio.png" alt="Edit 1 after" loading="lazy">
+            <img src="portfolio.png" data-before="portfolio-after.jpeg" alt="Edit 1 after" loading="lazy">
             <div class="portfolio-overlay">
               <button class="view-btn"><i class="fas fa-search-plus"></i></button>
             </div>
@@ -344,7 +358,7 @@
         </div>
       </div>
 
-     <!---- <div class="portfolio-note">
+      <!---- <div class="portfolio-note">
         <i class="fas fa-info-circle"></i>
         <span>चाहिए तो मैं before/after slider भी add कर सकता/सकती हूं.</span>
       </div>
@@ -363,7 +377,8 @@
       <div class="gaming-grid">
         <div class="video-card" tabindex="0">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Highlight 1" loading="lazy" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Highlight 1" loading="lazy"
+              allowfullscreen></iframe>
             <div class="play-overlay">
               <i class="fas fa-play"></i>
             </div>
@@ -380,7 +395,8 @@
 
         <div class="video-card" tabindex="0">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Highlight 2" loading="lazy" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Highlight 2" loading="lazy"
+              allowfullscreen></iframe>
             <div class="play-overlay">
               <i class="fas fa-play"></i>
             </div>
@@ -412,7 +428,8 @@
               <i class="fab fa-youtube"></i>
               <div>
                 <strong>YouTube</strong>
-                <a href="https://youtube.com/@ankitkumar-mf2my?si=WJsCrfa1itfytKwW" target="_blank" rel="noopener">@ankitkumar-mf2my</a>
+                <a href="https://youtube.com/@ankitkumar-mf2my?si=WJsCrfa1itfytKwW" target="_blank"
+                  rel="noopener">@ankitkumar-mf2my</a>
               </div>
             </div>
           </div>
@@ -546,7 +563,8 @@
               <i class="fas fa-envelope"></i>
               <span>Email Me</span>
             </a>
-            <a class="contact-method" href="https://wa.me/919279934623?text=Hi%20Ankit%20I%20want%20to%20hire%20you" target="_blank" rel="noopener">
+            <a class="contact-method" href="https://wa.me/919279934623?text=Hi%20Ankit%20I%20want%20to%20hire%20you"
+              target="_blank" rel="noopener">
               <i class="fab fa-whatsapp"></i>
               <span>WhatsApp</span>
             </a>
@@ -600,10 +618,13 @@
             <span class="logo-icon">LK</span>
             <span class="logo-text">Laukesh<span class="accent-text">Kumar</span></span>
           </div>
-          <p class="footer-desc">Professional photo editor and competitive BGMI player creating stunning visuals and exciting gameplay content.</p>
+          <p class="footer-desc">Professional photo editor and competitive BGMI player creating stunning visuals and
+            exciting gameplay content.</p>
           <div class="footer-social">
-            <a href="https://instagram.com/__next___ff/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/@AnkitKumar-mf2my" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com/__next___ff/" target="_blank" rel="noopener"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@AnkitKumar-mf2my" target="_blank" rel="noopener"><i
+                class="fab fa-youtube"></i></a>
           </div>
         </div>
 
@@ -629,7 +650,8 @@
 
       <div class="footer-bottom">
         <p>&copy; 2024 <strong>Laukesh Kumar</strong> — Photo Editor & Gamer</p>
-        <p class="footer-credit">Developed by <a href="https://www.instagram.com/__ankit._.op_/" target="_blank" rel="noopener">Ankit Kumar</a></p>
+        <p class="footer-credit">Developed by <a href="https://www.instagram.com/__ankit._.op_/" target="_blank"
+            rel="noopener">Ankit Kumar</a></p>
       </div>
     </div>
   </footer>
@@ -653,6 +675,11 @@
     <div class="lightbox-content" id="lightboxContent"></div>
   </div>
 
+  <!-- Advanced performance and styling scripts -->
+  <script src="js/performance.js"></script>
+  <script src="js/advanced-animations.js"></script>
+  <script src="js/ai-chatbot.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
