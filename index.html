@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Laukesh Kumar — Photo Editor & Gamer | Portfolio</title>
+  <meta name="description"
+    content="Laukesh Kumar — Photo editor, content creator and competitive BGMI player from Patna. Portfolio, gameplay highlights, editing before/after and contact." />
+  <meta name="keywords" content="Photo Editor, BGMI, Gamer, Portfolio, Video Editor, Laukesh Kumar, Patna" />
+  <meta name="author" content="Laukesh Kumar" />
+  <meta property="og:title" content="Laukesh Kumar — Photo Editor & Gamer" />
+  <meta property="og:description" content="Professional photo edits and competitive BGMI gameplay highlights." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://laukesh.onrender.com/images/laukesh.jpeg" />
+  <meta property="og:url" content="https://laukesh.onrender.com" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVY9CKBJN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DTVY9CKBJN');
+  </script>
+
+  <link rel="icon" type="image/png" href="images/laukesh.jpeg" />
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAV -->
+  <nav class="navbar" role="navigation" aria-label="Top Navigation">
+    <div class="container nav-container">
+      <div class="nav-left">
+        <div class="logo" tabindex="0">
+          <span class="logo-icon">LK</span>
+          <span class="logo-text">Laukesh<span class="accent-text">Kumar</span></span>
+        </div>
+      </div>
+
+      <ul class="nav-links" id="navLinks" role="menubar" aria-label="Main">
+        <li role="none"><a role="menuitem" href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+        <li role="none"><a role="menuitem" href="#portfolio" class="nav-link"><i class="fas fa-images"></i>
+            Portfolio</a></li>
+        <li role="none"><a role="menuitem" href="#gaming" class="nav-link"><i class="fas fa-gamepad"></i> Gaming</a>
+        </li>
+        <li role="none"><a role="menuitem" href="#services" class="nav-link"><i class="fas fa-briefcase"></i>
+            Services</a></li>
+        <li role="none"><a role="menuitem" href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+
+      <div class="actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <div class="hamburger" id="burger" aria-label="Open menu" tabindex="0">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="profile-container animate-on-scroll">
+          <div class="profile-img">
+            <img src="images/laukesh.jpeg" alt="Laukesh Kumar portrait" loading="lazy">
+            <div class="profile-border"></div>
+          </div>
+          <div class="profile-status">
+            <span class="status-dot"></span>
+            <span>Available for work</span>
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <div class="hero-badge">
+            <i class="fas fa-star"></i>
+            <span>Professional Editor</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, मैं <span class="typing" id="typingArea">Laukesh</span>
+            <span class="cursor">|</span>
+          </h1>
+          <p class="subtitle">Photo Editor • Content Creator • Competitive BGMI Player</p>
+          <div class="hero-meta">
+            <span><i class="fas fa-map-marker-alt"></i> sheikhpura, Bihar</span>
+            <span><i class="fas fa-graduation-cap"></i> Class 12</span>
+            <span><i class="fas fa-trophy"></i> 50+ Projects</span>
+          </div>
+
+          <div class="cta">
+            <a class="btn btn-primary" href="#portfolio">
+              <span>View Portfolio</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a class="btn btn-secondary" href="#gaming">
+              <span>Watch Highlights</span>
+              <i class="fas fa-play"></i>
+            </a>
+            <a class="btn btn-ghost" href="https://www.instagram.com/__next___ff/" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+
+          <div class="hero-tip">
+            <i class="fas fa-lightbulb"></i>
+            <span>Pro-tip: Portfolio में "Before/After" और gameplay में "Clips (30s)" रखें — visitors जल्दी निर्णय लेते
+              हैं.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-indicator" href="#about">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Get to know me</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Passionate creator with a vision</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-content animate-on-scroll">
+          <p class="about-text">मैं एक passionate photo editor और content creator हूँ। Cinematic BGMI edits और
+            professional photo manipulations बनाता हूँ। मेरा focus visual storytelling और engagement बढ़ाना है।</p>
+
+          <div class="skills-container">
+            <h3 class="skills-title">My Skills</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Photo Editing</span>
+                  <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Color Grading</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Video Editing</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>BGMI Gaming</span>
+                  <span>92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 92%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-images"></i>
+            </div>
+            <div class="stat-content">
+              <strong class="stat-number" data-count="500">500+</strong>
+              <span class="stat-label">Photos Edited</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="stat-content">
+              <strong class="stat-number" data-count="1000">200+</strong>
+              <span class="stat-label">Gaming Hours</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-content">
+              <strong class="stat-number" data-count="150">15+</strong>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="stat-content">
+              <strong class="stat-number" data-count="50">50+</strong>
+              <span class="stat-label">Tournaments</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-choose">
+        <h3 class="why-title"><i class="fas fa-check-circle"></i> Why Choose Me</h3>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+            <h4>Fast Turnaround</h4>
+            <p>Quick delivery with staged drafts for your review</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-palette"></i></div>
+            <h4>Pro Color Grading</h4>
+            <p>Professional color correction and enhancement</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-video"></i></div>
+            <h4>Optimized Edits</h4>
+            <p>Perfect for Reels, Shorts & social media</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-headset"></i></div>
+            <h4>24/7 Support</h4>
+            <p>Always available for your queries and revisions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section section-alt">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-badge">My Work</span>
+        <h2 class="section-title">Portfolio — Photo Edits</h2>
+        <p class="section-subtitle">Interact with the Before/After slider or browse below</p>
+      </div>
+
+      <!-- Before/After Showcase Slider -->
+     
+      <div class="portfolio-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="landscape">Landscape</button>
+        <button class="filter-btn" data-filter="cinematic">Cinematic</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" data-category="cinematic" tabindex="0">
+          <div class="portfolio-image">
+            <img src="images/portfolio.png" data-before="portfolio-after.jpeg" alt="Edit 1 after" loading="lazy">
+            <div class="portfolio-overlay">
+              <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+            </div>
+            <div class="portfolio-badge">Featured</div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Cinematic Portrait Edit</h3>
+            <p class="portfolio-meta">Color grade • Retouch • 4K export</p>
+            <div class="portfolio-tags">
+              <span class="tag">Cinematic</span>
+              <span class="tag">Portrait</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="gaming" tabindex="0">
+          <div class="portfolio-image">
+            <img src="images/BGMI.webp" alt="Edit 2 after" loading="lazy">
+            <div class="portfolio-overlay">
+              <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>BGMI Thumbnail Edit</h3>
+            <p class="portfolio-meta">High contrast • Title design</p>
+            <div class="portfolio-tags">
+              <span class="tag">Gaming</span>
+              <span class="tag">Thumbnail</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="landscape" tabindex="0">
+          <div class="portfolio-image">
+            <img src="images/Landscape.jpg" alt="Edit 3 after" loading="lazy">
+            <div class="portfolio-overlay">
+              <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Landscape Manipulation</h3>
+            <p class="portfolio-meta">Composite • Color match</p>
+            <div class="portfolio-tags">
+              <span class="tag">Landscape</span>
+              <span class="tag">Composite</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="cinematic gaming" tabindex="0">
+          <div class="portfolio-image">
+            <img src="images/luminous-metaverse-background.jpg" alt="Edit 4 after" loading="lazy">
+            <div class="portfolio-overlay">
+              <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+            </div>
+            <div class="portfolio-badge">Popular</div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Cinematic Gamer Shot</h3>
+            <p class="portfolio-meta">Action capture • Focus effects</p>
+            <div class="portfolio-tags">
+              <span class="tag">Cinematic</span>
+              <span class="tag">Gaming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---- <div class="portfolio-note">
+        <i class="fas fa-info-circle"></i>
+        <span>चाहिए तो मैं before/after slider भी add कर सकता/सकती हूं.</span>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- GAMING -->
+  <section id="gaming" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Gameplay</span>
+        <h2 class="section-title">Gaming — Highlights</h2>
+        <p class="section-subtitle">Quick clips and stream links</p>
+      </div>
+
+      <div class="gaming-grid">
+        <div class="video-card" tabindex="0">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Highlight 1" loading="lazy"
+              allowfullscreen></iframe>
+            <div class="play-overlay">
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+          <div class="video-content">
+            <h3>30s Clutch — Solo Royale</h3>
+            <p class="video-meta">
+              <span><i class="fas fa-eye"></i> 60k views</span>
+              <span><i class="fas fa-heart"></i> 1.6k likes</span>
+            </p>
+            <p class="video-desc">Edited for maximum impact with smooth transitions</p>
+          </div>
+        </div>
+
+        <div class="video-card" tabindex="0">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Highlight 2" loading="lazy"
+              allowfullscreen></iframe>
+            <div class="play-overlay">
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+          <div class="video-content">
+            <h3>Best Snipes — Montage</h3>
+            <p class="video-meta">
+              <span><i class="fas fa-eye"></i> 8.5k views</span>
+              <span><i class="fas fa-heart"></i> 620 likes</span>
+            </p>
+            <p class="video-desc">Fast cuts with professional sound design</p>
+          </div>
+        </div>
+
+        <div class="stream-card">
+          <div class="stream-header">
+            <i class="fas fa-broadcast-tower"></i>
+            <h3>Live Streams</h3>
+          </div>
+          <div class="stream-content">
+            <div class="stream-link">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <strong>Instagram</strong>
+                <a href="https://www.instagram.com/__next___ff/" target="_blank" rel="noopener">@__next___ff</a>
+              </div>
+            </div>
+            <div class="stream-link">
+              <i class="fab fa-youtube"></i>
+              <div>
+                <strong>YouTube</strong>
+                <a href="https://youtube.com/@ankitkumar-mf2my?si=WJsCrfa1itfytKwW" target="_blank"
+                  rel="noopener">@ankitkumar-mf2my</a>
+              </div>
+            </div>
+          </div>
+          <div class="stream-schedule">
+            <h4><i class="fas fa-calendar"></i> Stream Schedule</h4>
+            <p>Weekends • Evening (India time)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What I Offer</span>
+        <h2 class="section-title">Services & Pricing</h2>
+        <p class="section-subtitle">Transparent pricing for quality work</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-image"></i>
+          </div>
+          <h3>Photo Edit — Basic</h3>
+          <p class="service-desc">Color correction • Crop • Minor retouch</p>
+          <div class="service-price">₹150<span>/image</span></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 24-48 hour delivery</li>
+            <li><i class="fas fa-check"></i> 1 revision included</li>
+            <li><i class="fas fa-check"></i> High-res export</li>
+          </ul>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="popular-badge">Most Popular</div>
+          <div class="service-icon">
+            <i class="fas fa-magic"></i>
+          </div>
+          <h3>Photo Edit — Pro</h3>
+          <p class="service-desc">Advanced retouch • Color grade • Background work</p>
+          <div class="service-price">₹350<span>/image</span></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 12-24 hour delivery</li>
+            <li><i class="fas fa-check"></i> 3 revisions included</li>
+            <li><i class="fas fa-check"></i> 4K export</li>
+            <li><i class="fas fa-check"></i> Source files included</li>
+          </ul>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-film"></i>
+          </div>
+          <h3>Gameplay Edit</h3>
+          <p class="service-desc">Short montage • Thumbnails • Sound mix</p>
+          <div class="service-price">₹500<span>/clip</span></div>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 2-3 day delivery</li>
+            <li><i class="fas fa-check"></i> 2 revisions included</li>
+            <li><i class="fas fa-check"></i> 1080p/4K export</li>
+            <li><i class="fas fa-check"></i> Thumbnail design</li>
+          </ul>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+      </div>
+
+      <div class="pricing-note">
+        <i class="fas fa-info-circle"></i>
+        <span>Note: Packages flexible for bulk work. Contact for custom quotes and discounts.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Ready to bring your vision to life</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-form-wrapper">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+              <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email / WhatsApp</label>
+              <input type="text" id="email" required placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="service"><i class="fas fa-briefcase"></i> Service Needed</label>
+              <select id="service" required>
+                <option value="">Select a service</option>
+                <option value="basic">Photo Edit - Basic</option>
+                <option value="pro">Photo Edit - Pro</option>
+                <option value="gameplay">Gameplay Edit</option>
+                <option value="custom">Custom Project</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment"></i> Project Details</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+
+          <div class="contact-divider">
+            <span>or reach me directly</span>
+          </div>
+
+          <div class="direct-contact">
+            <a class="contact-method" href="mailto:ankitkumar823089@gmail.com" rel="noopener">
+              <i class="fas fa-envelope"></i>
+              <span>Email Me</span>
+            </a>
+            <a class="contact-method" href="https://wa.me/919279934623?text=Hi%20Ankit%20I%20want%20to%20hire%20you"
+              target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+            <p>sheikhpura, Bihar, India</p>
+          </div>
+
+          <div class="info-card">
+            <h3><i class="fas fa-clock"></i> Availability</h3>
+            <p>Evenings and weekends</p>
+            <p class="info-meta">Response within 24-48 hours</p>
+          </div>
+
+          <div class="info-card">
+            <h3><i class="fas fa-share-alt"></i> Social Media</h3>
+            <div class="social-links">
+              <a href="https://instagram.com/__next___ff/" target="_blank" rel="noopener" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/@AnkitKumar-mf2my" target="_blank" rel="noopener" class="social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="info-card highlight">
+            <h3><i class="fas fa-rocket"></i> Quick Start</h3>
+            <ol class="process-list">
+              <li>Share your requirements</li>
+              <li>Get a custom quote</li>
+              <li>Receive drafts for review</li>
+              <li>Final delivery with files</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-icon">LK</span>
+            <span class="logo-text">Laukesh<span class="accent-text">Kumar</span></span>
+          </div>
+          <p class="footer-desc">Professional photo editor and competitive BGMI player creating stunning visuals and
+            exciting gameplay content.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/__next___ff/" target="_blank" rel="noopener"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@AnkitKumar-mf2my" target="_blank" rel="noopener"><i
+                class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#gaming">Gaming</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> sheikhpura, Bihar</li>
+            <li><i class="fas fa-envelope"></i> aishukumari9508212254@gmail.com</li>
+            <li><i class="fab fa-whatsapp"></i> +91 9199818310</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 <strong>Laukesh Kumar</strong> — Photo Editor & Gamer</p>
+        <p class="footer-credit">Developed by <a href="https://www.instagram.com/__ankit._.op_/" target="_blank"
+            rel="noopener">Ankit Kumar</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Contact -->
+  <a href="https://www.instagram.com/__ankit._.op_/" target="_blank" class="floating-contact" rel="noopener">
+    <i class="fab fa-instagram"></i>
+    <span>Contact Developer</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+  </div>
+
+  <!-- Advanced performance and styling scripts -->
+  <script src="js/performance.js"></script>
+  <script src="js/advanced-animations.js"></script>
+  <script src="js/ai-chatbot.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
